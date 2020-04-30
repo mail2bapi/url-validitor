@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/url-validitor",
+  "description": "Validator for top level domain and URL library for PHP",
+  "keywords": [
+    "url",
+    "tld-checker",
+    "tld",
+    "validation",
+    "email",
+    "domain"
+  ],
+  "homepage": "https://github.com/mail2bapi/url-validitor",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bapi Roy",
+      "webiste": "https://github.com/mail2bapi"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-intl": "*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0|^4.0|^5.0",
+    "phpunit/phpunit": "~4.8.36 || >=5.7.21"
+  }
+}
