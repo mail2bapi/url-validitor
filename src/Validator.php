@@ -37,6 +37,7 @@ class Validator
                     $encodedPath .= '/' . urlencode($urlPath);
                 }
             }
+            $encodedPath .= '/';
 
             $urlContents['query'] = isset($urlContents['query']) ? urlencode($urlContents['query']) : null;
             $urlContents['fragment'] = isset($urlContents['fragment']) ? urlencode($urlContents['fragment']) : null;
